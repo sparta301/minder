@@ -9,7 +9,7 @@ width: 30%;
 float: left;
 }
 
-.bodyText {
+.bodyText{
 text-align: center;
 font-family: 'Lobster', cursive;
 font-size: 2em;
@@ -28,6 +28,9 @@ font-size: 2em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
+.name{
+  
+}
 
 #preview{
   border-radius:20%;
@@ -35,27 +38,4 @@ font-size: 2em;
     width :320px;
   margin : 10%;
   margin-top: 0;
-}
-
-
-#preview2{
-  border-radius:10%;
-  heigth:320px;
-  width:280px;
-  margin : 2%;
-}
-
-
-#preview3{
-  border-radius:10%;
-  heigth:250px;
-  width:180px;
-  margin : 2%;
-}
-
-#preview4{
-  border-radius:10%;
-  heigth:320px;
-  width:280px;
-  margin : 2%;
 }
