@@ -1,22 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Minder</title>
-    <link rel="stylesheet" href="explore.css">
-    <h1>Home     People     Ranking</h1>
-</head>
-<body>
-   <div class="name">
-    <p>TESTIN !!!!!!!!!!!!!!</p>
-    
-</div>  
+    <meta charset="utf-8"/>
+    <title>CHANGING PICTURES</title>
+    <script type="text/javascript">
 
-    <div id="containerPicture">
-            <img id="preview" src="janet1.jpg"  alt="preview">
-        </div>
-            
-</body>
-</html>
+            function change(){
+                var image= document.getElementById('pictures');
+                image.src = "janet2.jpg"
+            }
+
+
+
+        </script>
+
+
+    </head>
+    <body>
+        <img src="janet1.jpg" height = "200" alt="pictures changing" id ="pictures" onclick="change();">
+    </body>
+    </html>
+
