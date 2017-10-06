@@ -1,0 +1,29 @@
+
+#container{
+  background-color: #00695C;
+  margin-bottom: 0;
+}
+
+#preview{
+width: 30%;
+float: left;
+}
+
+.bodyText{
+text-align: center;
+font-family: monospace;
+font-size: 2em;
+}
+
+#buttongrid{
+  float: center;
+  text-align: center;
+}
+
+.button{
+  color: white;
+  border-radius: 4px;
+  font-size: 200%;
+  background: rgb(66, 184, 221);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
